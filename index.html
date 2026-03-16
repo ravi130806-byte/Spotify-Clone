@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet"href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<audio id="player"></audio>
+<body>
+    <header>
+        <div class="nav-bar">
+            
+          <i class="fa-brands fa-spotify" style="color:white;"></i>
+            <i class="fa-solid fa-house" style="color: white;"></i>
+            <div class="navbar-input">
+<i class="fa-solid fa-magnifying-glass" style="color: rgb(197, 194, 188);"></i>
+                <input type="search"placeholder="What do you want to play?">
+            </div>
+            <button class="navbar-button">Premium</button>
+            <button class="navbar-button">Support</button>
+            <button class="navbar-button">Download</button>
+            <button class="navbar-button">
+<i class="fa-solid fa-download" style="color: rgb(197, 194, 188);"></i>
+                <span>Install Aap</span>
+            </button>
+            <button class="navbar-button">Sign Up</button>
+            <span class="nav-span">Log In</span>
+        </div>
+
+    </header>
+    <main>
+         <section class="firstSection">
+        
+        <div class="left">
+        <div class="container">
+            <h3>Your Libary</h3>
+            <span class="container-create">+ Create</span>
+            <div class="containerbar">
+                <h3>Create your first playlist</h3><br>
+                <h5>It's easy,we'll help you</h5><br>
+                <div class="containerbar1">Create Playlist</div>
+            </div>
+             <div class="containerbar">
+                <h3>Let's find some podcasts to follow</h3><br>
+                <h5>We'll keep you updated on new episodes </h5><br>
+                 <div class="containerbar1">Browse podcasts</div>
+            <ul>
+                <li>Legal</li>
+                <li>Safety & Privacy Center</li>
+                <li>Privacy Policy</li>
+                <li>Cookies</li>
+                <li>About Ads</li>
+                <li>Accessibility</li>
+            </ul><br>
+            <span>Cookies</span><br>
+            <button class="btn">English</button>
+             </div>
+        </div>
+        <div class="right">
+            <h1>Recent Played</h1>
+            <div class="song">
+            <div class="songplaylist">
+
+                <div class="card1"></div>
+                <div class="play-btn">
+                    <i class="fa-solid fa-play" style="color: rgb(26, 27, 27);"></i>
+                </div>
+                <h4>Rangbaaz</h4>
+                <p>Pawan singh,Khushi kakar</p>
+                </div>
+            
+                <div class="songplaylist">
+
+                <div class="card2"></div>
+                <div class="play-btn">
+                    <i class="fa-solid fa-play" style="color: rgb(26, 27, 27);"></i>
+                </div>
+                <h4>Saiyaara</h4>
+                <p>Tanishk Bagchi</p>
+                
+            </div>
+             <div class="songplaylist">
+
+                <div class="card3"></div>
+                <div class="play-btn">
+                    <i class="fa-solid fa-play" style="color: rgb(26, 27, 27);"></i>
+                </div>
+                <h4>Saiya Sewa kare</h4>
+                <p>Pawan singh,Shilpi Raj</p>
+                
+            </div>
+             <div class="songplaylist">
+
+                <div class="card4"></div>
+                <div class="play-btn">
+                    <i class="fa-solid fa-play" style="color: rgb(26, 27, 27);"></i>
+                </div>
+                <h4>Babuaan Se Hila</h4>
+                <p>Pawan singh,Shilpi Raj</p>
+                
+            </div>
+             <div class="songplaylist">
+
+                <div class="card5"></div>
+                <div class="play-btn">
+                    <i class="fa-solid fa-play" style="color: rgb(26, 27, 27);"></i>
+                </div>
+                <h4>Bani Laka</h4>
+                <p>Pawan singh,Shilpi Raj</p>
+                
+            </div>
+            <div class="songplaylist">
+
+                <div class="card6"></div>
+                <div class="play-btn">
+                    <i class="fa-solid fa-play" style="color: rgb(26, 27, 27);"></i>
+                </div>
+                <h4>Dhamaka</h4>
+                <p>Pawan singh,Shilpi Raj</p>
+                
+            </div>
+            <div class="songplaylist">
+
+                <div class="card7"></div>
+                <div class="play-btn">
+                    <i class="fa-solid fa-play" style="color: rgb(26, 27, 27);"></i>
+                </div>
+                <h4>Har Kisike Ke Dil Mein</h4>
+                 <p>Udit Narayan,Alka Yagnik</p>
+               
+
+                
+            </div>
+            <div class="songplaylist">
+
+                <div class="card8"></div>
+                <div class="play-btn">
+                    <i class="fa-solid fa-play" style="color: rgb(26, 27, 27);"></i>
+                </div>
+                <h4>Odhaniya Ae Gori </h4>
+                <p>Pawan singh,Shilpi Raj</p>
+                
+            </div>
+                
+                
+        </div>
+        </div>
+        </section>
+        
+    </main>
+    <footer>
+    <div class="bottom">
+
+        <audio id="player"></audio>
+<p class="now-playing">Playing: None</p>
+        <div class="time">
+            <span class="current-time">0:00</span>
+
+            <input type="range" min="0" max="100" value="0" class="progress">
+
+            <span class="total-time">0:00</span>
+        </div>
+
+        <div class="icon">
+            <i class="fas fa-step-backward" style="color:white;"></i>
+            <i class="fas fa-play-circle" style="color:white;"></i>
+            <i class="fas fa-step-forward" style="color:white;"></i>
+        </div>
+
+    </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
